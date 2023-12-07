@@ -1,0 +1,150 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: #49C489;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+#Bmenu_header {
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 40px;
+    left: 20px;
+
+}
+
+#logo_header {
+    position: absolute;
+    right: 50px;
+    top: 12px;
+    width: 50px;
+}
+
+.nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 45px;
+}
+
+.nav > a:hover {
+    border-bottom: 4px solid white;
+    padding-bottom: 3px;
+}
+
+#Bmenu_header:hover {
+    color: rgba(128, 128, 128, 0.438);
+}
+
+
+.titulo{
+    color: darkcyan;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: #cfe4da;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.conteiner{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    height: 25px;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.crime{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+.presidiario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 55%;
+}
+.info3{
+    display: flex;
+    justify-content: space-between;
+}
+.cep{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+.uf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+.info5{
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+.trans{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 55%;
+}
