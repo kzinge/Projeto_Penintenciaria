@@ -67,7 +67,7 @@ body {
     justify-content: space-between;
     padding: 0 20px; 
     margin-top: 97px;
-    
+    background-color: #3E9D70;
 }
 
 
@@ -75,6 +75,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
+    background-color: #3E9D70;
 }
 
 
@@ -83,6 +84,7 @@ body {
     width: 360px;
     height: 360px;
     text-align: center;
+    background-color: #3E9D70;
     
 }
 
