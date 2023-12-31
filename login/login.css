@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
-/* joge cauan */
 
 * {
     margin: 0;
@@ -33,6 +32,13 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.enviar:hover{
+    background-color: #71d8a7;
+    color: white;
+    width: 233px;
 }
 
 .imagem img {
@@ -186,5 +192,10 @@ a:hover {
         font-size: 16pt;
     }
 
-    
+    .erro {
+        color: darkcyan;
+        font-size: 13px;
+    }
+
+
 }
