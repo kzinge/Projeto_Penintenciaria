@@ -10,7 +10,7 @@
 <body>
     <header class="header">
         <button id="Bmenu_header">
-            &#9776;
+            ☰
         </button>
         <nav class="nav">
             <a href="../login/login.html">Login</a>
@@ -20,57 +20,54 @@
         <img id="logo_header" src="../imagens/imgsemfundo/logosimples.png" alt="logo">
     </header>
     <div class="main">
-        <div class="titulo">
-            Cadastro de presos
-        </div>
-        <div class="conteiner">
+        <form id="meuFormulario" class="conteiner">
             <div class="info1">
                 <p>Nome completo:</p>
-                <input type="text">
+                <input type="text" required>
             </div>
             <div class="info2">
                 <div class="crime">
                     <p>Código do crime:</p>
-                    <input type="text">
+                    <input type="number" class="codigo-do-crime" required>
                 </div>
                 <div class="presidiario">
                     <p>Classificação do presidiário:</p>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
             </div>
             <div class="info3">
                 <div class="cep">
                     <p>CEP:</p>
-                    <input type="text">
+                    <input type="number" class="cep" required>
                 </div>
                 <div class="city">
                     <p>Cidade:</p>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
                 <div class="uf">
                     <p>UF:</p>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
             </div>
             <div class="info4">
                 <p>Complemento: </p>
-                <input type="text">
+                <input type="text" required>
             </div>
             <div class="info5">
                 <div class="data">
                     <p>Data de nascimento: </p>
-                    <input type="text">
+                    <input type="number" class="data-de-nascimento" required>
                 </div>
                 <div class="trans">
                     <p>Data de entrada/Transferência:</p>
-                    <input type="text">
+                    <input type="number" class="transferencia" required>
                 </div>
-                
             </div>
-        </div>
-        
+            <div class="baixo">
+              <button type="submit" class="botão_envia">Enviar</button>
+            </div>
+        </form>
     </div>
-    
-
+<script src="validacao.js"></script>
 </body>
-</html>
+                </html>
