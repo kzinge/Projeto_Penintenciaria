@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penitenciaria Borcelle</title>
     <script src="https://kit.fontawesome.com/c8e856bd4f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login_3.css">
     <link rel="icon" href="../imagens/logotipo.png">
 </head>
 <body>
@@ -16,7 +16,7 @@
                 <img src="../imagens/logo.png" alt="logotipo da Penitenciaria">
             </div>
 
-            <form action="">
+            <form id="meuFormulario" action="../main/main.html">
                 <img src="../imagens/logotipo.png" alt="logotipo">
                 <h2>Faça login</h2>
 
@@ -26,6 +26,7 @@
                             <i class="fa-regular fa-user" style="color: #71d8a7;"></i>
                             <input type="text" id="user" placeholder="Digite seu usuário">
                         </label>
+                        <span id="erroUsuario"></span>
                     </div>
     
                     <div class="password">
@@ -33,12 +34,14 @@
                             <i class="fa-solid fa-key" style="color: #71d8a7;"></i>
                             <input type="password" id="password" placeholder="Digite sua senha">
                         </label>
+                        <span id="erroSenha"></span>
                     </div>
                 </div>
 
-                <a href="../main/main.html">Entrar</a>
+                <input class="enviar" type="submit" value="Entrar">
             </form>
 
         </main>
+<script src="login_1.js"></script>
 </body>
-</html>
+    </html>
