@@ -36,6 +36,8 @@ body {
 
 }
 
+
+
 #logo_header {
     position: absolute;
     right: 50px;
@@ -58,15 +60,7 @@ body {
     color: rgba(128, 128, 128, 0.438);
 }
 
-
-.titulo{
-    color: darkcyan;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-}
 .main{
-    background-color: #cfe4da;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -74,6 +68,7 @@ body {
     gap: 4rem;
 }
 .conteiner{
+    margin-top: 93px;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -148,3 +143,22 @@ input{
     gap: 10px;
     width: 55%;
 }
+
+.botão_envia{
+    background-color: #49C489;
+    padding: 9px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    float: right;
+}
+
+.baixo{
+  margin-top: 13px;
+}
+
+
+.botão_envia:hover{
+    background-color: rgb(190, 255, 215);
+    color: #49C489;
+    }
