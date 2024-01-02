@@ -19,55 +19,89 @@
         </nav>
         <img id="logo_header" src="../imagens/imgsemfundo/logosimples.png" alt="logo">
     </header>
-    <div class="main">
-        <form id="meuFormulario" class="conteiner">
-            <div class="info1">
-                <p>Nome completo:</p>
-                <input type="text" required>
+    <div id="tudo">
+        <aside class="barra_lateral">
+            <img id="logo_aside" src="../imagens/imgsemfundo/logosmedia.png" alt="">
+
+            <div id="botoes_menu">
+                <button>
+                    <img src="../imagens/imgsemfundo/telefone.png" alt="" height="20px">
+                    Atendimento
+                </button>
+                <button>
+                    <img src="../imagens/imgsemfundo/grafico.png" alt="" height="50px">
+                    Início
+                </button>
+                <button>
+                    <img src="../imagens/imgsemfundo/lista.png" alt="" height="60px">
+                    Sobre
+                </button>
+                <button>
+                    <img src="../imagens/imgsemfundo/usuarios.png" alt="" height="60px">
+                    Cadastrar preso
+                </button>
+                <button>
+                    <img src="../imagens/imgsemfundo/bolsa.png" alt="" height="45px">
+                    Sistema
+                </button>
+                <button>
+                    <img src="../imagens/imgsemfundo/engrenagem.png" alt="" height="50px">
+                    Fale conosco
+                </button>
             </div>
-            <div class="info2">
-                <div class="crime">
-                    <p>Código do crime:</p>
-                    <input type="number" class="codigo-do-crime" required>
-                </div>
-                <div class="presidiario">
-                    <p>Classificação do presidiário:</p>
+        </aside>
+        <div class="main">
+            <form id="meuFormulario" class="conteiner">
+                <div class="info1">
+                    <p>Nome completo:</p>
                     <input type="text" required>
                 </div>
-            </div>
-            <div class="info3">
-                <div class="cep">
-                    <p>CEP:</p>
-                    <input type="number" class="cep" required>
+                <div class="info2">
+                    <div class="crime">
+                        <p>Código do crime:</p>
+                        <input type="number" class="codigo-do-crime" required>
+                    </div>
+                    <div class="presidiario">
+                        <p>Classificação do presidiário:</p>
+                        <input type="text" required>
+                    </div>
                 </div>
-                <div class="city">
-                    <p>Cidade:</p>
+                <div class="info3">
+                    <div class="cep">
+                        <p>CEP:</p>
+                        <input type="number" class="cep" required>
+                    </div>
+                    <div class="city">
+                        <p>Cidade:</p>
+                        <input type="text" required>
+                    </div>
+                    <div class="uf">
+                        <p>UF:</p>
+                        <input type="text" required>
+                    </div>
+                </div>
+                <div class="info4">
+                    <p>Complemento: </p>
                     <input type="text" required>
                 </div>
-                <div class="uf">
-                    <p>UF:</p>
-                    <input type="text" required>
+                <div class="info5">
+                    <div class="data">
+                        <p>Data de nascimento: </p>
+                        <input type="number" class="data-de-nascimento" required>
+                    </div>
+                    <div class="trans">
+                        <p>Data de entrada/Transferência:</p>
+                        <input type="number" class="transferencia" required>
+                    </div>
                 </div>
-            </div>
-            <div class="info4">
-                <p>Complemento: </p>
-                <input type="text" required>
-            </div>
-            <div class="info5">
-                <div class="data">
-                    <p>Data de nascimento: </p>
-                    <input type="number" class="data-de-nascimento" required>
+                <div class="baixo">
+                  <button type="submit" class="botão_envia">Enviar</button>
                 </div>
-                <div class="trans">
-                    <p>Data de entrada/Transferência:</p>
-                    <input type="number" class="transferencia" required>
-                </div>
-            </div>
-            <div class="baixo">
-              <button type="submit" class="botão_envia">Enviar</button>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
-<script src="validacao.js"></script>
+    <script src="validacao.js"></script>
+    <script src="../main/menu_configuracoes.js"></script>
+
 </body>
 </html>

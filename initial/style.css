@@ -59,6 +59,56 @@ body {
     color: rgba(128, 128, 128, 0.438);
 }
 
+#tudo {
+    display: flex;
+    justify-content: center;
+}
+
+.barra_lateral {
+    display: flex;
+    background-color: #cfe4da;
+    flex: 1 1 30%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo_aside {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+#botoes_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#botoes_menu > button {
+    margin: 5px 0px;
+    width: 170px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: gray;
+    background-color: transparent;
+}
+
+#botoes_menu > button:hover {
+    color: white;
+    background-color: #089451;
+}
+
+
+#botoes_menu > button > img {
+    margin-right: 5px;
+}
+
 h1{
     font-size: 60px;
     color: aquamarine; 
@@ -70,6 +120,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: 70%;
     
 }
 .conteudo{
@@ -83,13 +134,13 @@ h1{
 }
 .botoes{
     display: flex;
-    width: 25%;
+    width: 45%;
     justify-content: space-between;
 }
 
 button{
     border-radius: 5px;
-    padding: 5px;
+    padding: 9px;
 }
 .visitas{
     color: white;

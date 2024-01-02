@@ -59,6 +59,62 @@ body {
 }
 
 
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex: 1 1;
+}
+
+.barra_lateral {
+    display: flex;
+    background-color: #cfe4da;
+    flex: 1 1 30%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo_aside {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+#botoes_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#botoes_menu > button {
+    margin: 5px 0px;
+    width: 170px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: gray;
+    background-color: transparent;
+}
+
+#botoes_menu > button:hover {
+    color: white;
+    background-color: #089451;
+}
+
+
+#botoes_menu > button > img {
+    margin-right: 5px;
+}
+
+#atendimento {
+    margin: 0px auto;
+}
 
 .meio{
     display: flex;
