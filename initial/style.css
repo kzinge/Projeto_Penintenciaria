@@ -142,7 +142,17 @@ button{
     border-radius: 5px;
     padding: 9px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .visitas{
     color: white;
     background-color: darkcyan;
+}
+
+.visitas a{
+    color: white;
 }
