@@ -170,6 +170,22 @@ article {
     transition: ease-in-out 0.3s;
 }
 
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #49C489;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0vh;
+}
+
+.footer .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 1200px) {
    #container {
     height: 90%;
@@ -194,6 +210,32 @@ article {
     #container a {
         font-size: 16pt;
     }
+}
+
+@media only screen and (max-width: 660px) {
+    .header > .nav {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    #tudo {
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+    }
+
+
+    .barra_lateral {
+        height: fit-content;
+    }
+
+    #logo_aside {
+        margin-top: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
